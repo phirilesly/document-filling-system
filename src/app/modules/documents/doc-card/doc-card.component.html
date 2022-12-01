@@ -1,0 +1,208 @@
+<div class="flex flex-col flex-auto min-w-0">
+
+    <!-- Header -->
+    <div class="flex flex-col sm:flex-row flex-0 sm:items-center sm:justify-between p-6 sm:py-8 sm:px-10 border-b  bg-card dark:bg-transparent">
+        <div class="flex-1 min-w-0">
+            <!-- Breadcrumbs -->
+            <div class="flex flex-wrap items-center font-medium">
+                <div class="flex flex-row space-x-2 items-center text-secondary">
+                    <div class="mt-0.5 tracking-tight leading-6 truncate">Manage Documents</div>
+                    <mat-icon [svgIcon]="'heroicons_outline:chevron-right'" class="icon-size-4"></mat-icon>
+                    <div class="mt-0.5 tracking-tight leading-6 truncate">Documents Categories</div>
+
+                </div>
+            </div>
+            <!-- Title -->
+            <div class="mt-2">
+                <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight leading-7 sm:leading-10 truncate">
+                    Documents Categories
+                </h2>
+            </div>
+        </div>
+
+        <div class="mt-4 sm:mt-0">
+            <!-- Upload button -->
+            <button
+                mat-flat-button
+                [color]="'primary'">
+               
+                <span class="ml-2 mr-1">New Category</span>
+            </button>
+        </div>
+    </div>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-6 w-full min-w-0 p-6">
+
+<fuse-card class="flex flex-col w-full mt-5 p-8 filter-info border-b-8 border-blue-900">
+    <div class="text-2xl font-semibold leading-tight">Personal Documents</div>
+    <div class="w-full border-t my-6"></div>
+    <div class="mt-4">
+       Folders : 3
+        <br><br>
+        Files : 13
+    </div>
+   <div class="w-full border-t my-6"></div>
+    <div class="flex flex-col">
+       
+        <div class="flex items-center mt-4">
+            <mat-icon
+                class="icon-size-5 mr-3"
+                [svgIcon]="'heroicons_outline:user'"></mat-icon>
+            <span class="leading-none">Created By : Lesly Phiri</span>
+        </div>
+        <div class="flex items-center mt-4">
+            <mat-icon
+                class="icon-size-5 mr-3"
+                [svgIcon]="'heroicons_outline:calendar'"></mat-icon>
+            <span class="leading-none">Created Date : April, 24 2022</span>
+        </div>
+    </div>
+    <button
+        class="px-6 mt-8"
+        mat-flat-button
+        [color]="'primary'"
+        routerLink="/documents/documents/4">
+        Go to records
+    </button>
+</fuse-card>
+
+
+<fuse-card class="flex flex-col w-full mt-5 p-8 filter-info border-b-8 border-blue-900">
+    <div class="text-2xl font-semibold leading-tight">Bank Records</div>
+   <div class="w-full border-t my-6"></div>
+    <div class="mt-4">
+       Folders : 3
+        <br><br>
+        Files : 13
+    </div>
+   <div class="w-full border-t my-6"></div>
+    <div class="flex flex-col">
+       
+        <div class="flex items-center mt-4">
+            <mat-icon
+                class="icon-size-5 mr-3"
+                [svgIcon]="'heroicons_outline:user'"></mat-icon>
+            <span class="leading-none">Created By : Lesly Phiri</span>
+        </div>
+        <div class="flex items-center mt-4">
+            <mat-icon
+                class="icon-size-5 mr-3"
+                [svgIcon]="'heroicons_outline:calendar'"></mat-icon>
+            <span class="leading-none">Created Date : April, 25 2022</span>
+        </div>
+    </div>
+    <button
+        class="px-6 mt-8"
+        mat-flat-button
+        [color]="'primary'"
+        routerLink="/documents/documents/4">
+        Go to records
+    </button>
+</fuse-card>
+
+<fuse-card class="flex flex-col w-full mt-5 p-8 filter-info border-b-8 border-blue-900">
+    <div class="text-2xl font-semibold leading-tight">Projects </div>
+   <div class="w-full border-t my-6"></div>
+    <div class="mt-4">
+       Folders : 3
+        <br><br>
+        Files : 13
+    </div>
+   <div class="w-full border-t my-6"></div>
+    <div class="flex flex-col">
+        
+        <div class="flex items-center mt-4">
+            <mat-icon
+                class="icon-size-5 mr-3"
+                [svgIcon]="'heroicons_outline:user'"></mat-icon>
+            <span class="leading-none">Created By : Lesly Phiri</span>
+        </div>
+        <div class="flex items-center mt-4">
+            <mat-icon
+                class="icon-size-5 mr-3"
+                [svgIcon]="'heroicons_outline:calendar'"></mat-icon>
+            <span class="leading-none">Created Date : April, 25 2022</span>
+        </div>
+    </div>
+    <button
+        class="px-6 mt-8"
+        mat-flat-button
+        [color]="'primary'"
+        routerLink="/documents/documents/4">
+        Go to records
+    </button>
+</fuse-card>
+
+<fuse-card class="flex flex-col w-full mt-5 p-8 filter-info border-b-8 border-blue-900">
+    <div class="text-2xl font-semibold leading-tight">Budgets</div>
+   <div class="w-full border-t my-6"></div>
+    <div class="mt-4">
+       Folders : 3
+        <br><br>
+        Files : 13
+    </div>
+   <div class="w-full border-t my-6"></div>
+    <div class="flex flex-col">
+       
+        <div class="flex items-center mt-4">
+            <mat-icon
+                class="icon-size-5 mr-3"
+                [svgIcon]="'heroicons_outline:user'"></mat-icon>
+            <span class="leading-none">Created By : Lesly Phiri</span>
+        </div>
+        <div class="flex items-center mt-4">
+            <mat-icon
+                class="icon-size-5 mr-3"
+                [svgIcon]="'heroicons_outline:calendar'"></mat-icon>
+            <span class="leading-none">Created Date : April, 24 2022</span>
+        </div>
+    </div>
+    <button
+        class="px-6 mt-8"
+        mat-flat-button
+        [color]="'primary'"
+        routerLink="/documents/documents/4">
+        Go to records
+    </button>
+</fuse-card>
+
+
+<fuse-card class="flex flex-col w-full mt-5 p-8 mb-5 filter-info border-b-8 border-blue-900">
+    <div class="text-2xl font-semibold leading-tight">Work Documents</div>
+   <div class="w-full border-t my-6"></div>
+    <div class="mt-4">
+       Folders : 3
+        <br><br>
+        Files : 13
+    </div>
+   <div class="w-full border-t my-6"></div>
+    <div class="flex flex-col">
+      
+        <div class="flex items-center mt-4">
+            <mat-icon
+                class="icon-size-5 mr-3"
+                [svgIcon]="'heroicons_outline:user'"></mat-icon>
+            <span class="leading-none">Created By : Lesly Phiri</span>
+        </div>
+        <div class="flex items-center mt-4">
+            <mat-icon
+                class="icon-size-5 mr-3"
+                [svgIcon]="'heroicons_outline:calendar'"></mat-icon>
+            <span class="leading-none">Created Date : April, 24 2022</span>
+        </div>
+    </div>
+    <button
+        class="px-6 mt-8"
+        mat-flat-button
+        [color]="'primary'"
+        routerLink="/documents/documents/4">
+        Go to records
+    </button>
+</fuse-card>
+
+
+
+</div>
+
+</div>
+
